@@ -10,4 +10,3 @@ with open('cargos_unicos.txt', 'w', encoding='utf-8') as f:
         f.write(f"{cargo}\n")
 
 print(f"Sucesso! Foram encontrados {len(cargos_unicos)} cargos diferentes.")
-print("Abra o arquivo 'cargos_unicos.txt' que foi criado na sua pasta para ver a lista completa.")
